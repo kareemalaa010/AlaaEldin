@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+body{
+    direction: rtl;
+}
+/* end navbar */
+.title{
+    width: 100%;
+    height: 30vh;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: teal;
+}
+.title .text{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+}
+/* end title */
+/* start inputs */
+.sign .inputs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.sign .inputs p{
+    font-size:20px ;
+    color: #000;
+    padding-bottom: 10px;
+}
+.sign .inputs form .first input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.sign .inputs form .second input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.sign .inputs form .pass input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.sign .inputs form .email input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.sign .inputs .sub{
+    padding: 30px;
+}
+.sign .inputs .sub .btn{
+    width: 400px;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px 15px;
+    font-size: 20px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    transition: all 0.3s ease;
+    background: teal;
+    border: none;
+    border: 2px solid teal;
+    color: #fff;
+}
+.sign .inputs .sub .btn:hover{
+    background: none;
+    color: teal;
+}
+/* end inputs */
+/* start end */
+.end{
+    height:60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: teal;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.end .name{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+}
+.end .name a{
+    color: teal;
+    display: block;
+    padding: 5px 40px;
+    outline: none;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #fff;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    transition: all 0.3s ease;
+}
+.end .name a:hover{
+    color: #fff;
+    background: none;
+}
+.end .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end .social p{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+}
+.end .social p .email{
+    font-size: 22px;
+    color: #fff;
+}
+.end .social p a{
+    color: #fff;
+}
+.end .social p .i{
+    font-size: 25px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    color: #fff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+/* end end */
+/* start footer */
+footer{
+    background: #fff;
+    padding: 10px 23px;
+    color: teal;
+    text-align: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+footer span a{
+    color:#000;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+/* end footer */

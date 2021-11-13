@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main .left{
+    height: 100vh;
+    width: 60%;
+    border-radius:  0  0 95% 0;
+    position: absolute;
+    left: 0;
+    background-color: teal;
+}
+.main .left .logo{
+    padding: 10px 20px;
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    color: #fff;
+    position: absolute;
+    left: 8%;
+    top: 25%;
+}
+.main .right{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+.main .right .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .right .login-img{
+    height: 200px;
+    width: 200px;
+}
+.main .right .wel{
+    font-size: 35px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 400;
+    padding:10px 0;
+    color: teal;
+}
+.main .right .card .inputs{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.main .right .card .email{
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom:2px solid teal;
+    background-color: transparent;
+    margin-bottom: 22px;
+}
+.main .right .card  .username{
+    margin-bottom: 8px;
+    color: teal;
+}
+.main .right .card .password{
+    margin-bottom: 8px;
+    color: teal;
+}
+.main .right .card .pass{
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom:2px solid teal;
+    background-color: transparent;
+    margin-bottom: 22px;
+}
+.main .right .card .btn{
+    padding: 2px 40px;
+    background-color: teal;
+    color: #fff;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 23px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 0 #fff;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: none;
+    outline: none;
+    border: 2px solid teal;
+    margin: 20px 0;
+}
+.main .right .card .btn:hover{
+    background: none;
+    color: teal;
+}
+.main .right .card .forget{
+    color: teal;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+}
+.main .right .card .forget:hover{
+    text-decoration: underline;
+}

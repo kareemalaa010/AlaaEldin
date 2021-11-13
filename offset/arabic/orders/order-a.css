@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    direction: rtl;
+}
+/* start navbar */
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    transition: 0.4s ease;
+    box-shadow: 0px 0px 15px 0px teal;
+}
+.navbar .logo a{
+    font-size: 40px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+.navbar .logo a .in{
+    color: teal;
+}
+.navbar .list li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar .list li a{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    color: teal;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: 0.3s ease;
+}
+.navbar .list li a:hover{
+    color: #222;
+}
+/* end navbar */
+.title{
+    width: 100%;
+    height: 50vh;
+    padding: 30px 0;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: teal;
+}
+.title .text{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+}
+/* end title */
+/* start desgin */
+.desgin{
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.desgin .logo{
+    font-size: 50px;
+    color: teal;
+    font-weight: 600;
+}
+.desgin .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.desgin .btns .make{
+    padding: 8px 40px;
+    margin-right: 50px;
+    border-radius: 8px;
+    background: tomato;
+    font-size: 30px;
+    color: #fff;
+    border: 3px solid  tomato;
+    font-weight: 500;
+    transition: 0.4s ease;
+}
+.desgin .btns .make:hover{
+    background: none;
+    color: tomato;
+}
+.desgin .btns .and{
+    font-size: 40px;
+    color: teal;
+    padding: 0px 15px;
+}
+.desgin .btns .send{
+    padding: 8px 40px;
+    margin-left: 50px;
+    border-radius: 8px;
+    background:sandybrown;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    border: 3px solid sandybrown;
+    transition: 0.4s ease;
+}
+.desgin .btns .send:hover{
+    background: none;
+    color: sandybrown;
+}
+/* end desgin */
+/* start data */
+.data{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.data .logo{
+    font-size: 45px;
+    color: teal;
+    font-weight: 600;
+}
+.data .inputs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.data .inputs form .paper input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.data .inputs form .paper i{
+    font-size: 25px;
+    color: teal;
+    padding:  0  10px;
+}
+.data .inputs form .brand input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.data .inputs form .brand i{
+    font-size: 25px;
+    color: teal;
+    padding:  0  5px;
+}
+.data .inputs form .number input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.data .inputs form .number i{
+    font-size: 25px;
+    color: teal;
+    padding:  0  8px;
+}
+.data .inputs form .email input{
+    width: 400px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.data .inputs form .email i{
+    font-size: 25px;
+    color: teal;
+    padding:  0  7px;
+}
+.data .inputs form .address input{
+    width: 400px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+    outline: none;
+    padding: 8px 15px;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    transition: all 0.3s ease;
+}
+.data .inputs form .address i{
+    font-size: 25px;
+    color: teal;
+    padding:  0  10px;
+}
+.data .btn{
+    padding: 7px 25px;
+    margin: 30px 0;
+    background: teal;
+    border: none;
+    outline: none;
+    border: 2px solid teal;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 400;
+}
+.data .btn:hover{
+    background:none;
+    color: teal;
+}
+/* end data */
+/* start end */
+.end{
+    height:60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: teal;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.end .name{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+}
+.end .name a{
+    color: teal;
+    display: block;
+    padding: 3px 40px;
+    outline: none;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #fff;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    transition: all 0.3s ease;
+}
+.end .name a:hover{
+    color: #fff;
+    background: none;
+}
+.end .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end .social p{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+}
+.end .social p .email{
+    font-size: 22px;
+    color: #fff;
+}
+.end .social p a{
+    color: #fff;
+}
+.end .social p .i{
+    font-size: 25px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    color: #fff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+/* end end */
+/* start footer */
+footer{
+    background: #fff;
+    padding: 10px 23px;
+    color: teal;
+    text-align: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+footer span a{
+    color:#000;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+/* end footer */
+

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+/* strat navbar */
+.navbar{
+    height: 40vh;
+    width:100%;
+    background-color: teal;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* start p */
+.p{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p .logo{
+    font-size:50px;
+    color: teal;
+    font-weight: 600;
+    padding-bottom:10px ;
+    font-family: 'Poppins', sans-serif;
+}
+.p .text{
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: teal;
+    line-height: 1.9;
+    width: 80%;
+    padding: 10px 15px;
+    border: 4px solid teal;
+    border-radius: 8px;
+}
+/* strat end */
+.end{
+    height:60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: teal;
+    font-family: 'Poppins', sans-serif;
+}
+.end .name{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+}
+.end .name a{
+    color: teal;
+    display: block;
+    padding: 5px 40px;
+    outline: none;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #fff;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.end .name a:hover{
+    color: #fff;
+    background: none;
+}
+.end .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end .social p{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+}
+.end .social p .email{
+    font-size: 22px;
+    color: #fff;
+}
+.end .social p a{
+    color: #fff;
+}
+.end .social p .i{
+    font-size: 25px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    color: #fff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+/* start footer */
+footer{
+    background: #fff;
+    padding: 10px 23px;
+    color: teal;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+footer span a{
+    color:#000;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+/* end footer */
