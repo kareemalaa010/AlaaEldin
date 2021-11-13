@@ -21,9 +21,9 @@
             <span class="wel"> Welcome </span>
             <form class="inputs" method="POST" action="return false;">
                 <i class="fas fa-user username"></i>
-                <input class="email" type="text" placeholder="E-mail"/>
+                <input id="c" class="email" type="text" placeholder="E-mail"/>
                 <i class="fas fa-lock password"></i>
-                <input class="pass" type="password" placeholder="Password"/>
+                <input id="password" class="pass" type="password" placeholder="Password"/>
             </form>
             <button id="do_login" type="button" class="btn"> Login</button>
             <a href="#" class="forget"> Forget The Password ? </a> & <a href="/sign%20up/sign.html" class="forget"> Sign
@@ -37,6 +37,7 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     $("#do_login").click(function () {
+        debugger;
             var settings = {
                 "url": "https://618f9da9f6bf450017484972.mockapi.io/offset/Login",
                 "method": "POST",
@@ -45,12 +46,13 @@
                     "Content-Type": "application/json"
                 },
                 "data": JSON.stringify({
-                    "username": "kareem",
-                    "password": "123"
+                    "username": $("#email").val(),
+                    "password": $("#password").val()
                 }),
             };
 
             $.ajax(settings).done(function (response) {
+                debugger;
                 if (response[0].email === "ka054336@gmail.com") {
                     alert("Hi " +response[0].name +". Welcome to your website!");
                     window.location.href = "/index.html";
