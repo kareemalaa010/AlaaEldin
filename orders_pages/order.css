@@ -60,184 +60,40 @@
     font-weight: bold;
 }
 /* end title */
-/* start desgin */
-.desgin{
+/* start contact */
+.contact{
     height: 100vh;
     width: 100%;
-    background: #fff;
+    background-color:#fff;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.desgin .logo{
-    font-size: 50px;
-    color: teal;
-    font-weight: 600;
-}
-.desgin .btns{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 0;
-}
-.desgin .btns .make{
-    padding: 15px 35px;
-    margin-right: 50px;
-    border-radius: 8px;
-    background: tomato;
-    font-size: 30px;
-    color: #fff;
-    border: 3px solid  tomato;
-    font-weight: 500;
-    transition: 0.4s ease;
-}
-.desgin .btns .make:hover{
-    background: none;
-    color: tomato;
-}
-.desgin .btns .and{
-    font-size: 40px;
-    color: teal;
-}
-.desgin .btns .send{
-    padding: 15px 35px;
-    margin-left: 50px;
-    border-radius: 8px;
-    background:sandybrown;
-    font-size: 30px;
-    color: #fff;
-    font-weight: 500;
-    border: 3px solid sandybrown;
-    transition: 0.4s ease;
-}
-.desgin .btns .send:hover{
-    background: none;
-    color: sandybrown;
-}
-/* end desgin */
-/* start data */
-.data{
-    height: 100vh;
-    width: 100%;
     position: relative;
-    font-family: 'Poppins', sans-serif;
+}
+.contact .logo{
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    padding-top: 150px;
+}
+.contact .content{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-}
-.data .logo{
-    font-size: 45px;
+    font-size: 39px;
+    font-weight: normal;
     color: teal;
-    font-weight: 600;
+    padding-top: 100px;
 }
-.data .inputs{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 50px;
+.contact .content .whats{
+    padding-bottom: 40px;
 }
-.data .inputs form .paper input{
-    width: 400px;
-    border-radius: 6px;
-    outline: none;
-    border: 2px solid lightgray;
-    padding: 8px 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
+.contact .content .phone{
+    padding-bottom: 40px;
 }
-.data .inputs form .paper i{
-    font-size: 25px;
-    color: teal;
-    padding:  0  10px;
-}
-.data .inputs form .brand input{
-    width: 400px;
-    border-radius: 6px;
-    outline: none;
-    border: 2px solid lightgray;
-    padding: 8px 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-}
-.data .inputs form .brand i{
-    font-size: 25px;
-    color: teal;
-    padding:  0  5px;
-}
-.data .inputs form .number input{
-    width: 400px;
-    border-radius: 6px;
-    outline: none;
-    border: 2px solid lightgray;
-    padding: 8px 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-}
-.data .inputs form .number i{
-    font-size: 25px;
-    color: teal;
-    padding:  0  8px;
-}
-.data .inputs form .email input{
-    width: 400px;
-    border-radius: 6px;
-    outline: none;
-    border: 2px solid lightgray;
-    padding: 8px 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-}
-.data .inputs form .email i{
-    font-size: 25px;
-    color: teal;
-    padding:  0  7px;
-}
-.data .inputs form .address input{
-    width: 400px;
-    border-radius: 6px;
-    border: 2px solid lightgray;
-    outline: none;
-    padding: 8px 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-.data .inputs form .address i{
-    font-size: 25px;
-    color: teal;
-    padding:  0  10px;
-}
-.data .btn{
-    padding: 7px 25px;
-    margin: 30px 0;
-    background: teal;
-    border: none;
-    outline: none;
-    border: 2px solid teal;
-    font-size: 25px;
-    color: #fff;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.4s ease;
-    font-weight: 400;
-}
-.data .btn:hover{
-    background:none;
-    color: teal;
-}
-/* end data */
+/* end contact */
 /* start end */
 .end{
     height:60vh;
