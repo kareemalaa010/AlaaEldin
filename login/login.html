@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/all.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="login.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 <div class="main">
@@ -37,10 +39,10 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     $("#do_login").click(function () {
-        debugger;
+            debugger;
             var settings = {
                 "url": "https://618f9da9f6bf450017484972.mockapi.io/offset/Login",
-                "method": "POST",
+                "method": "GET",
                 "timeout": 0,
                 "headers": {
                     "Content-Type": "application/json"
@@ -53,10 +55,10 @@
 
             $.ajax(settings).done(function (response) {
                 debugger;
-                if (response[0].name === "Deborah Moore") {
-                    alert("Hi " +response[0].name +". Welcome to your website!");
+                if (response[0].email === $("#email").val()) {
+                    alert("Hi " + response[0].name + ". Welcome to your website!");
                     window.location.href = "/index.html";
-                }else{
+                } else {
                     alert("Email or password is incorrect");
                 }
                 // console.log(response);
