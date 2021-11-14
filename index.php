@@ -206,7 +206,15 @@
             $header = "From:" . $email . '\r\n';
             $myemail = "alaatoprint@gmail.com";
             if (empty($formerrors)){
-                mail( $myemail , "Contact Form" , $text , $header)
+                mail( $myemail , "Contact Form" , $text , $header);
+            }
+            // seccsed
+            if (empty($formerrors)){
+                $user="";
+                $mail="";
+                $subj="";
+                $tex="";
+                $success = "<div class='alert alert-success'> We Have Recieved Your Massege </div>";
             }
         } 
     ?>
@@ -257,6 +265,11 @@
                             ?>
                             </div>
                              <?php } ?>
+                             <?php
+                              if (isset($success)){
+                                  echo $success;
+                                }
+                              ?>
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" name="username" required class="fullname" placeholder="Name">
