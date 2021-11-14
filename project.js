@@ -28,5 +28,10 @@ $(document).ready(function () {
             }
         }
     });
+    // toggle menu/navbar script
+    $('.menu-btn').click(function(){
+        $('.navbar .list').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
     
 });
